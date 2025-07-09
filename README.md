@@ -30,13 +30,16 @@ Some of the code-cells are ‘non-editable’ which means that you are supposed 
 run them, but you are not able to edit them. These non-editable code cells
 should help you test your code while you proceed. 
 
-#### *No* immediate feedback
+#### Immediate feedback
 
-This week’s exercise is more complex, and there often exists more than one way
-to solve a problem. For this reason, exercise 3 is *not graded automatically*.
-Use the cells marked `# NON-EDITABLE CODE CELL FOR TESTING YOUR SOLUTION` to
-check whether your code works.
+Whenever you push and submit your work, an automated process will check your
+submission and tell you how many points you have achieved, so far. The feedback
+includes a list of possible improvements (unless there is nothing to improve on
+anymore, of course ;) ).
 
+You can find this feedback in the [‘Pull Request’](../pull/1) that has been
+automatically opened when you [accepted the GitHub classroom 
+assignment](#).
 
 ## Start working
 
