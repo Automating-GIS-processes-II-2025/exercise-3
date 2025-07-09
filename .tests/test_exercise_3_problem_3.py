@@ -39,7 +39,7 @@ class TestProblem3:
         assert "within" in source
 
 
-    @points(1, "Problem 3, Part 3: Are the population numbers for the shopping centres correct or realistic?")
+    @points(1, "Problem 3, Part 3: Are the population numbers for the shopping centres realistic?")
     def test_problem_3_part_3_population(self, problem3):
         section_data, namespace = problem3
         section = "Part 3"
