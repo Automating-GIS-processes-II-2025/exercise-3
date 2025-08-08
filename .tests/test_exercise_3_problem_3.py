@@ -7,7 +7,7 @@ import pyproj
 
 
 class TestProblem3:
-    @points(1, "Problem 3, Part 1: Did you import the population grid`?")
+    @points(2, "Problem 3, Part 1: Did you import the population grid`?")
     def test_problem_3_part_1_grid(self, problem3):
         section_data, namespace = problem3
         section = "Part 1"
@@ -18,7 +18,7 @@ class TestProblem3:
         assert 'asukkaita' or 'population' in variables['population_grid'].columns
         assert "wfs" in source
 
-    @points(1, "Problem 3, Part 1: Did you import the shopping centre buffers?")
+    @points(2, "Problem 3, Part 1: Did you import the shopping centre buffers?")
     def test_problem_3_part_1_centres(self, problem3):
         section_data, namespace = problem3
         section = "Part 1"
@@ -28,7 +28,7 @@ class TestProblem3:
         assert len(variables['shopping_centre_buffers']) == 7
 
     
-    @points(1, "Problem 3, Part 2: Did you import the shopping centre buffers into a dataframe?")
+    @points(2, "Problem 3, Part 2: Did you import the shopping centre buffers into a dataframe?")
     def test_problem_3_part_2(self, problem3):
         section_data, namespace = problem3
         section = "Part 2"
@@ -39,7 +39,7 @@ class TestProblem3:
         assert "within" in source
 
 
-    @points(1, "Problem 3, Part 3: Are the population numbers for the shopping centres realistic?")
+    @points(2, "Problem 3, Part 3: Are the population numbers for the shopping centres realistic?")
     def test_problem_3_part_3_population(self, problem3):
         section_data, namespace = problem3
         section = "Part 3"
