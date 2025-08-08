@@ -36,7 +36,7 @@ class TestProblem1:
         
         
 
-    @points(0, "Problem 1, Part 3: Did you reproject the layer to EPSG:3879 ?")
+    @points(1, "Problem 1, Part 3: Did you reproject the layer to EPSG:3879 ?")
     def test_problem_1_part_3_crs(self, problem1):
         section_data, namespace = problem1
         section = "Part 3"
